@@ -1,0 +1,11 @@
+a=input("Enter the string : ")
+def most_frequent(string):
+    dict1=dict()
+    for key in string:
+        if key in dict1:
+            dict1[key]+=1
+        else:
+            dict1[key]=1
+    return dict1
+        
+result=(most_frequent(a))
